@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DxGanttModule, DxCheckBoxModule, DxSelectBoxModule } from 'devextreme-angular';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,10 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DxGanttModule,
+    DxCheckBoxModule,
+    DxSelectBoxModule
   ],
   providers: [],
   bootstrap: [AppComponent]
